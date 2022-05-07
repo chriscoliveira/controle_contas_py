@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>871</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>423</width>
+      <height>914</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="frame_lista">
+       <property name="minimumSize">
+        <size>
+         <width>421</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>421</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="2" column="0" colspan="2">
+           <widget class="QListWidget" name="listWidget"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="btn_avanca_Mes1">
+            <property name="text">
+             <string>Próximo Mês</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="btn_volta_Mes1">
+            <property name="text">
+             <string>Mês Anterior</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_15">
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Contas do Mes</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_resumo">
+       <property name="minimumSize">
+        <size>
+         <width>421</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>421</width>
+         <height>500</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QLabel" name="lbl_titulo_2">
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Resumo das Contas</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="6" column="1">
+           <widget class="QLabel" name="lbl_antes20">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Cartão</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLabel" name="lbl_cartao">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>Sobra</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="lbl_mes">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="lbl_sobra">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLabel" name="lbl_depois20">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="lbl_falta">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="lbl_receber">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>Contas após dia 20</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Contas antes dia 20</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Receber</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="btn_volta_Mes">
+            <property name="text">
+             <string>Mês Anterior</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="lbl_pagar">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Falta Pagar</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Mes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btn_avanca_Mes">
+            <property name="text">
+             <string>Próximo Mes</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Pagar</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="0" colspan="2">
+           <widget class="QLabel" name="lbl_grafico">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>250</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_cadastro">
+       <property name="minimumSize">
+        <size>
+         <width>421</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>421</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="1" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Conta</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string>Vencimento</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="ed_parcela"/>
+          </item>
+          <item row="4" column="1" colspan="3">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLineEdit" name="ed_dia"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="ed_mes"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="ed_ano"/>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Valor</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Categoria</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="3">
+           <widget class="QLineEdit" name="ed_categoria"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Parcela</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QLineEdit" name="ed_valor"/>
+          </item>
+          <item row="1" column="1" colspan="3">
+           <widget class="QLineEdit" name="ed_tipo"/>
+          </item>
+          <item row="6" column="0" colspan="4">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QPushButton" name="pushButton_2">
+              <property name="text">
+               <string>Deletar</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_3">
+              <property name="text">
+               <string>Atualizar</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>Cadastrar</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Tipo</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="3">
+           <widget class="QLineEdit" name="ed_conta"/>
+          </item>
+          <item row="5" column="0" colspan="4">
+           <widget class="QCheckBox" name="checkBox">
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+             <string>Pago</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="lbl_titulo">
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Cadastrar Conta</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>630</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuReceber">
+    <property name="title">
+     <string>Contas a Receber</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPagar">
+    <property name="title">
+     <string>Contas a Pagar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCartao">
+    <property name="title">
+     <string>Cartao</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuResumo_Mes_a_Mes">
+    <property name="title">
+     <string>Resumo Mes a Mes</string>
+    </property>
+   </widget>
+   <addaction name="menuReceber"/>
+   <addaction name="menuPagar"/>
+   <addaction name="menuCartao"/>
+   <addaction name="menuResumo_Mes_a_Mes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>ed_conta</tabstop>
+  <tabstop>ed_tipo</tabstop>
+  <tabstop>ed_categoria</tabstop>
+  <tabstop>ed_parcela</tabstop>
+  <tabstop>ed_valor</tabstop>
+  <tabstop>ed_dia</tabstop>
+  <tabstop>ed_mes</tabstop>
+  <tabstop>ed_ano</tabstop>
+  <tabstop>checkBox</tabstop>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>btn_volta_Mes</tabstop>
+  <tabstop>btn_avanca_Mes</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
